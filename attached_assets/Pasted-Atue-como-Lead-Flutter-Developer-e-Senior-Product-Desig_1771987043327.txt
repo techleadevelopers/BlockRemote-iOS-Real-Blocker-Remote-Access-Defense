@@ -1,0 +1,31 @@
+Atue como Lead Flutter Developer e Senior Product Designer especializado em Fintechs de Alta Segurança.
+
+Objetivo: Refinar a interface do BlockRemote para um padrão comercial premium (Enterprise Level), justificando um modelo de assinatura recorrente.
+
+1. Refinamento Visual (Premium Aesthetics):
+
+Depth & Glassmorphism: Implemente efeitos de BackdropBlur (Glassmorphism) na Bottom Tab Bar e nos cabeçalhos. Os cartões devem ter um gradiente linear sutil, não apenas uma cor sólida.
+
+Dynamic Glow: O brilho Matrix Green não deve ser estático. Adicione um "breathing effect" (pulsação suave) via AnimationController em todos os elementos de status "SECURE".
+
+Typography: Utilize JetBrains Mono para dados técnicos e Satoshi ou Inter para títulos, garantindo um equilíbrio entre o "hacker-style" e o "software corporativo".
+
+2. Transparência de Proteção (Valor Percebido):
+
+Dashboard Avançado: Substitua o círculo simples por um Radar Animado. Ele deve mostrar "varreduras" constantes passando pelos sensores.
+
+Stats de Impacto: No Dashboard, adicione um contador de "Requisições Analisadas" ou "Integridade de Memória". O usuário precisa ver números subindo para sentir que o app está trabalhando.
+
+Shield Detailed View: Ao clicar em um módulo do App Shield, abra um modal com detalhes técnicos da proteção (ex: "Criptografia de Input ativa", "Monitoramento de Overlay 24/7").
+
+3. Micro-interações de Elite:
+
+Haptic Engine: Implemente diferentes níveis de feedback tátil (HapticFeedback). Um toque leve ao navegar, e um "Heavy Impact" vibratório ao clicar em "SIMULATE THREAT".
+
+Seamless Transitions: As trocas entre abas (Dashboard -> Sensors) não podem ser secas. Use transições de slide com Curves.easeInOutCubic para dar sensação de software fluido.
+
+Loading States: Crie um "System Initialization" ao abrir o app, com logs subindo rápido, para simular uma blindagem de sistema sendo carregada.
+
+4. Dark Mode "True Black":
+
+Garanta que o background seja #000000 absoluto para telas OLED, criando a ilusão de que o app flutua no hardware do iPhone
