@@ -1,17 +1,17 @@
 <component name="libraryTable">
   <library name="Dart SDK">
     <CLASSES>
-      <root url="file:///home/runner/flutter/bin/cache/dart-sdk/lib/async" />
-      <root url="file:///home/runner/flutter/bin/cache/dart-sdk/lib/collection" />
-      <root url="file:///home/runner/flutter/bin/cache/dart-sdk/lib/convert" />
-      <root url="file:///home/runner/flutter/bin/cache/dart-sdk/lib/core" />
-      <root url="file:///home/runner/flutter/bin/cache/dart-sdk/lib/developer" />
-      <root url="file:///home/runner/flutter/bin/cache/dart-sdk/lib/html" />
-      <root url="file:///home/runner/flutter/bin/cache/dart-sdk/lib/io" />
-      <root url="file:///home/runner/flutter/bin/cache/dart-sdk/lib/isolate" />
-      <root url="file:///home/runner/flutter/bin/cache/dart-sdk/lib/math" />
-      <root url="file:///home/runner/flutter/bin/cache/dart-sdk/lib/mirrors" />
-      <root url="file:///home/runner/flutter/bin/cache/dart-sdk/lib/typed_data" />
+      <root url="file:///nix/store/yk06k2xi481mkz7lbnqip2178l547ihl-flutter-wrapped-3.22.0-sdk-links/bin/cache/dart-sdk/lib/async" />
+      <root url="file:///nix/store/yk06k2xi481mkz7lbnqip2178l547ihl-flutter-wrapped-3.22.0-sdk-links/bin/cache/dart-sdk/lib/collection" />
+      <root url="file:///nix/store/yk06k2xi481mkz7lbnqip2178l547ihl-flutter-wrapped-3.22.0-sdk-links/bin/cache/dart-sdk/lib/convert" />
+      <root url="file:///nix/store/yk06k2xi481mkz7lbnqip2178l547ihl-flutter-wrapped-3.22.0-sdk-links/bin/cache/dart-sdk/lib/core" />
+      <root url="file:///nix/store/yk06k2xi481mkz7lbnqip2178l547ihl-flutter-wrapped-3.22.0-sdk-links/bin/cache/dart-sdk/lib/developer" />
+      <root url="file:///nix/store/yk06k2xi481mkz7lbnqip2178l547ihl-flutter-wrapped-3.22.0-sdk-links/bin/cache/dart-sdk/lib/html" />
+      <root url="file:///nix/store/yk06k2xi481mkz7lbnqip2178l547ihl-flutter-wrapped-3.22.0-sdk-links/bin/cache/dart-sdk/lib/io" />
+      <root url="file:///nix/store/yk06k2xi481mkz7lbnqip2178l547ihl-flutter-wrapped-3.22.0-sdk-links/bin/cache/dart-sdk/lib/isolate" />
+      <root url="file:///nix/store/yk06k2xi481mkz7lbnqip2178l547ihl-flutter-wrapped-3.22.0-sdk-links/bin/cache/dart-sdk/lib/math" />
+      <root url="file:///nix/store/yk06k2xi481mkz7lbnqip2178l547ihl-flutter-wrapped-3.22.0-sdk-links/bin/cache/dart-sdk/lib/mirrors" />
+      <root url="file:///nix/store/yk06k2xi481mkz7lbnqip2178l547ihl-flutter-wrapped-3.22.0-sdk-links/bin/cache/dart-sdk/lib/typed_data" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
