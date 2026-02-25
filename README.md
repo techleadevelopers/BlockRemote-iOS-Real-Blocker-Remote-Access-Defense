@@ -1,4 +1,4 @@
-﻿# BlockRemote - Cybersecurity Real Defense System 
+﻿# BlockRemote - IOS design patterns Cybersecurity Real Defense System 
 
 ## Overview
 BlockRemote é um motor de defesa de soberania digital desenvolvido em Flutter/Dart. O sistema foi projetado para neutralizar ameaças de acesso remoto (RATs) e ataques de "mão fantasma" através de telemetria de sensores de hardware em alta frequência e uma arquitetura de blindagem ativa.
