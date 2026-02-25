@@ -1,22 +1,28 @@
-name: blockremote
-description: "BlockRemote - Cybersecurity Defense System"
+name: bilingui_ai
+description: "Bilingui-AI - Gamified Language Learning App"
 publish_to: 'none'
-version: 2.1.0+1
+version: 1.0.0+1
 
 environment:
-  sdk: ^3.11.0
+  sdk: '>=3.4.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8
-  provider: ^6.1.2
-  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.6
+  fl_chart: ^0.68.0
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+  dio: ^5.4.3+1
+  shimmer: ^3.0.0
+  percent_indicator: ^4.2.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/logo.png
