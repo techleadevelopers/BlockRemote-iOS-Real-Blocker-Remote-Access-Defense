@@ -1,0 +1,44 @@
+Atue como Senior Flutter Developer e UI/UX Designer Especialista em Gamificação.
+
+Objetivo: Desenvolver o frontend completo do Bilingui-AI em Dart/Flutter, focado em uma estética "Purple Tech" (Roxo Claro, Lilás e Gradientes) com micro-interações fluidas.
+
+1. Sistema de Cores e Temas (Design System):
+
+Primary Palette: Use um gradiente Linear de 0xFF6A11CB (Roxo Profundo) para 0xFF2575FC (Roxo Real) ou 0xFFE0C3FC (Lilás Suave).
+
+Surface: Cards com 0xFFF3E5F5 (Lavanda claríssimo) e bordas suaves.
+
+Typography: Utilize a fonte 'Poppins' ou 'Montserrat' para um ar moderno e educativo.
+
+2. Fluxo de Cadastro e Onboarding (Animado):
+
+Crie uma SplashScreen com o logo do cérebro (Bilingui-AI) usando Lottie para uma animação de pulso.
+
+Login/Cadastro: Implemente campos de texto flutuantes com Glassmorphism e um botão primário com gradiente roxo e elevação suave ao pressionar.
+
+3. Dashboard e Lições (Arquitetura de Gamificação):
+
+Home: Desenvolva um XPProgressBar personalizado no topo e um RadarChart centralizado (usando a lib fl_chart) para exibir as estatísticas do usuário (Fala, Leitura, Gramática).
+
+Lesson Cards: Use Hero animations ao clicar em uma lição para expandir o conteúdo de forma fluida.
+
+4. Interface de IA e Voz (Interação Real-time):
+
+VoiceButton: Desenvolva um botão circular roxo que, ao ser pressionado, exibe ondas senoidais animadas (AnimatedBuilder) simulando o processamento do Whisper.
+
+Chat IA: Estilize as bolhas de chat com gradientes roxos para o usuário e tons de cinza/lilás para a IA Mistral, com efeito de "escrita" (Typing indicator).
+
+5. Tecnologias de Integração:
+
+Gerenciamento de Estado: Use Riverpod ou Bloc para sincronizar o progresso e XP.
+
+Integração API: Configure o Dio para se conectar ao backend FastAPI nos endpoints /audio/submit e /chat.
+
+🏛️ Estrutura de Widgets Sugerida para o Codex:
+BilinguiTheme: Definição global de ColorScheme (Primary: Purple, Secondary: Lilac).
+
+AnimatedBrainLogo: Widget central da tela de login com animação de respiração.
+
+LessonModuleCard: Card com bordas arredondadas (24dp) e sombras suaves em lilás.
+
+FeedbackOverlay: Componente de correção inteligente que desliza de baixo para cima após a análise da IA.
