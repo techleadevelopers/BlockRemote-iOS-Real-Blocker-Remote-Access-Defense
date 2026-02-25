@@ -1,0 +1,8 @@
+from fastapi import APIRouter
+from app.api.v1 import signals, security, audit, billing
+
+api_router = APIRouter(prefix="/v1")
+api_router.include_router(signals.router, prefix="/signals", tags=["signals"])
+api_router.include_router(security.router, prefix="/security", tags=["security"])
+api_router.include_router(audit.router, prefix="/audit", tags=["audit"])
+api_router.include_router(billing.router, prefix="/billing", tags=["billing"])
