@@ -1,8 +1,9 @@
 entrypoint = "main.dart"
-modules = ["dart-3.3", "dart-3.10"]
+modules = ["dart-3.3", "nodejs-20"]
 
 [nix]
 channel="stable-24_05"
+packages = ["flutter"]
 
 [deployment]
 run = ["dart", "main.dart"]
@@ -27,13 +28,13 @@ args = "Start application"
 name = "Start application"
 author = "agent"
 
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "export PATH=/home/runner/flutter/bin:$PATH && cd /home/runner/workspace && dart run server.dart"
-waitForPort = 5000
-
 [workflows.workflow.metadata]
 outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node serve.js"
+waitForPort = 5000
 
 [[ports]]
 localPort = 5000
